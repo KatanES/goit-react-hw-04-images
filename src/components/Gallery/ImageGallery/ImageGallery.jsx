@@ -14,3 +14,4 @@ export const Gallery = ({ imgItems }) => {
     </div>
   );
 };
+console.log(Gallery);
