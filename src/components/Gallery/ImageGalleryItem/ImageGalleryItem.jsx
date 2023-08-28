@@ -31,7 +31,7 @@ export const GalleryImage = ({ webformatURL, tags, largeImageURL }) => {
       <ImageGalleryItemImg
         src={webformatURL}
         alt={tags}
-        load="lazy"
+        $load="lazy"
         onClick={() => setIsModalOpen(true)}
       />
       <Modal
